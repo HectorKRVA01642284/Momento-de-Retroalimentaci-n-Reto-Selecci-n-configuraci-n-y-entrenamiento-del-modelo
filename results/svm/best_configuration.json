@@ -1,0 +1,18 @@
+{
+  "model": "SVM",
+  "selection_metric": "validation_f1_macro",
+  "preprocessing": "StandardScaler ajustado solo con train",
+  "best_params": {
+    "kernel": "rbf",
+    "C": 10,
+    "gamma": "scale"
+  },
+  "validation_metrics": {
+    "accuracy": 0.7255985267034991,
+    "precision_macro": 0.7326402508023462,
+    "recall_macro": 0.7253930522981374,
+    "f1_macro": 0.7232678786088237
+  },
+  "train_samples": 2534,
+  "validation_samples": 543
+}

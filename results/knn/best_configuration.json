@@ -1,0 +1,18 @@
+{
+  "model": "KNN",
+  "selection_metric": "validation_f1_macro",
+  "preprocessing": "StandardScaler ajustado solo con train",
+  "best_params": {
+    "n_neighbors": 1,
+    "weights": "uniform",
+    "metric": "manhattan"
+  },
+  "validation_metrics": {
+    "accuracy": 0.8360957642725598,
+    "precision_macro": 0.8373929882338881,
+    "recall_macro": 0.8370291202062761,
+    "f1_macro": 0.8341631456596751
+  },
+  "train_samples": 2534,
+  "validation_samples": 543
+}

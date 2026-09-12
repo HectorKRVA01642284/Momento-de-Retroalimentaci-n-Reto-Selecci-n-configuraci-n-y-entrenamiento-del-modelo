@@ -1,0 +1,11 @@
+.venv/
+.clj-kondo/
+.lsp/
+.vscode/
+__pycache__/
+*.py[cod]
+
+results/**/*.png
+results/**/*_predictions.csv
+results/**/*_confusion_matrix.csv
+results/**/feature_importances.csv

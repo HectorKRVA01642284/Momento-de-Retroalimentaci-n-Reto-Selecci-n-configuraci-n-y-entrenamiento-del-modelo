@@ -1,0 +1,19 @@
+{
+  "model": "Decision Tree",
+  "selection_metric": "validation_f1_macro",
+  "random_state": 42,
+  "best_params": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "validation_metrics": {
+    "accuracy": 0.7532228360957642,
+    "precision_macro": 0.7560146763436868,
+    "recall_macro": 0.7421526316677939,
+    "f1_macro": 0.7465605096438259
+  },
+  "train_samples": 2534,
+  "validation_samples": 543,
+  "tree_depth": 19,
+  "tree_leaves": 522
+}
